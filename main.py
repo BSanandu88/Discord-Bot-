@@ -7,7 +7,7 @@ class Client(discord.Client):
     self.target_message_id = 931897298299027578
   
   async def on_ready(self):
-    print("Anandu BOT LLC ")
+    print("BOT ")
   
   async def on_raw_reaction_add(self,payload):
     if payload.message_id != self.target_message_id:
