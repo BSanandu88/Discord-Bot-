@@ -1,3 +1,4 @@
+# Role Assigning Bot 
 import discord
 
 class Client(discord.Client):
